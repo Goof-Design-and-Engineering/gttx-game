@@ -20,6 +20,3 @@ client = PocketBase('https://api.gttx.app')
 with open("creds.txt", "r") as creds:
     #creds.gitignore is a file with two lines in it. line 0 is the username, line 1 is the password.
     admin_data = client.admins.auth_with_password(creds.readline().replace("\n", ""), creds.readline().replace("\n", ""))
-
-id = "81lp924dbt8riiy"
-print(checkRoom(id))

@@ -1,6 +1,7 @@
 from pb_lib import *
+from game_html import *
 from flask import Flask, request
-import requests, asyncio
+import requests, asyncio, json
 
 class RoomInstance():
     def __init__(self, id):
@@ -26,7 +27,7 @@ def start(id):
 @app.route('/game/<id>')
 def game(id):
     if id in open_rooms:
-        return open_rooms[id].scenario
+        return request_game.replace("%GAMEJSON%", json.dumps(open_rooms[id].scenario))
     else:
         return "No :)"
 
@@ -38,6 +39,14 @@ def close(id):
          return "Room Closed"
      else:
          return "No :)"
+
+@app.route('/cookie')
+def cookie():
+    return request.cookies
+
+@app.route('/')
+def index():
+    return request_game
 
 if __name__ == '__main__':
     app.run()
