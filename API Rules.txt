@@ -1,0 +1,28 @@
+Users
+	List Action 						(id = @request.auth.id) || (org = @request.auth.org)
+		Search for yourself 			
+		Anyone in your org				
+	View Action							(id = @request.auth.id) || (org = @request.auth.org) || (emailVisibility = true && "" != @request.auth.id)
+		Yourself						
+		Anyone in your org				
+		Anyone with a public email.		
+	Create Action						"" = @request.auth.id
+		Anyone not authed?				
+	Update Action						(id = @request.auth.id) || ("facilitator" = @request.auth.role)
+		Yourself						
+		Facilitator in your org.        
+	Delete Action						id = @request.auth.id) || ("facilitator" = @request.auth.role)
+		Yourself						
+		Facilitator in your org?		
+
+Organizations
+	List Action							@request.auth.id ?= members
+		Anyone in the org				
+	View Action							@request.auth.id ?= members
+		Anyone in the org				
+	Create Action						(@request.auth.role = "facilitator") && (@request.auth.org = "")
+		Facilitator with no org			
+	Update Action						(@request.auth.role = "facilitator") && (@request.auth.org = id)
+		Facilitator in the org
+	Delete Action						(@request.auth.role = "facilitator") && (@request.auth.org = id)
+		Facilitator in the org and something else, probably.
