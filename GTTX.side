@@ -2,7 +2,7 @@
   "id": "388e0184-debf-4365-9059-605c50f8b5eb",
   "version": "2.0",
   "name": "GTTX",
-  "url": "https://gttx.app",
+  "url": "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o",
   "tests": [{
     "id": "540375bb-f916-4191-8218-9522702f4087",
     "name": "Bot 1 Login",
@@ -494,6 +494,246 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "e777d4ba-c2e8-4289-9757-294459e0baa4",
+    "name": "King Bot Room",
+    "commands": [{
+      "id": "093fa258-6176-4c92-a456-179c5497a4ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3672a56e-065c-4e9f-a2b4-251e25a91129",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "896x980",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49375538-0851-4fde-8b0a-d2e7825b4e24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid > button:nth-child(4)",
+      "targets": [
+        ["css=.grid > button:nth-child(4)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1380b4-d082-4e6c-b781-f61b4326bf71",
+      "comment": "",
+      "command": "click",
+      "target": "css=select",
+      "targets": [
+        ["css=select", "css:finder"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f6c1c9-e6a7-4643-b360-0fe9ba33ec3c",
+      "comment": "",
+      "command": "select",
+      "target": "css=select",
+      "targets": [],
+      "value": "label=1"
+    }, {
+      "id": "4b6e4231-3160-4169-8a3a-d1cd700de35f",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(3)",
+      "targets": [
+        ["css=option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='1']", "xpath:attributes"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b6d6464-3c30-4b1b-9a3e-65aae4d5d1f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid > button:nth-child(4)",
+      "targets": [
+        ["css=.grid > button:nth-child(4)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2eeb88-3eb7-42a8-a9a4-45a1d5c43f6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid > button:nth-child(4)",
+      "targets": [
+        ["css=.grid > button:nth-child(4)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47622402-2d24-4d6a-a170-399878d58e8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid > button:nth-child(4)",
+      "targets": [
+        ["css=.grid > button:nth-child(4)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7745b876-9092-41e8-9601-c4869f7c29c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid > button:nth-child(4)",
+      "targets": [
+        ["css=.grid > button:nth-child(4)", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Question')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80174758-c9a9-4296-8400-32bca6bb97c0",
+    "name": "Bot 0 Room",
+    "commands": [{
+      "id": "d7d5ac0b-de7f-4b18-b141-99f27dd5085b",
+      "comment": "",
+      "command": "open",
+      "target": "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2b2a9d9-176c-4fad-b119-1e5345fe6911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svelte-ao2ii4:nth-child(2)",
+      "targets": [
+        ["css=.svelte-ao2ii4:nth-child(2)", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d687316c-39a5-4af0-bd90-02c328cfbd6c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.svelte-ao2ii4:nth-child(2)",
+      "targets": [
+        ["css=.svelte-ao2ii4:nth-child(2)", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e0b13d6-92d6-434c-b876-e369e1447a32",
+      "comment": "",
+      "command": "click",
+      "target": "id=notes",
+      "targets": [
+        ["id=notes", "id"],
+        ["name=notes", "name"],
+        ["css=#notes", "css:finder"],
+        ["xpath=//textarea[@id='notes']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc05ef54-35b2-45d0-8c9e-30ffaaadcbd3",
+      "comment": "",
+      "command": "type",
+      "target": "id=notes",
+      "targets": [
+        ["id=notes", "id"],
+        ["name=notes", "name"],
+        ["css=#notes", "css:finder"],
+        ["xpath=//textarea[@id='notes']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "This is a note from Bot 0!"
+    }, {
+      "id": "d92f2873-2102-4d46-8f1d-dfa322d42b12",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d35efdcc-63c5-4101-b492-f5e175e3dabe",
+    "name": "Bot 1 Room",
+    "commands": [{
+      "id": "2abcd039-e4eb-4a14-bfde-6ef2f46a8f84",
+      "comment": "",
+      "command": "open",
+      "target": "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2f8f0a1-f101-4425-b986-ed13d6d1d10d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.svelte-ao2ii4:nth-child(2)",
+      "targets": [
+        ["css=.svelte-ao2ii4:nth-child(2)", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4acd265-0685-428e-93dc-1058b4a9463b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.svelte-ao2ii4:nth-child(2)",
+      "targets": [
+        ["css=.svelte-ao2ii4:nth-child(2)", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b959c0e-848b-49c3-abc4-38a21a026521",
+      "comment": "",
+      "command": "click",
+      "target": "id=notes",
+      "targets": [
+        ["id=notes", "id"],
+        ["name=notes", "name"],
+        ["css=#notes", "css:finder"],
+        ["xpath=//textarea[@id='notes']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5d986fb-009b-4524-97cb-e5b98d4d0cc7",
+      "comment": "",
+      "command": "type",
+      "target": "id=notes",
+      "targets": [
+        ["id=notes", "id"],
+        ["name=notes", "name"],
+        ["css=#notes", "css:finder"],
+        ["xpath=//textarea[@id='notes']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "This is a note from Bot 1!"
+    }, {
+      "id": "b04ff4dd-9f3f-4390-a6d6-882caba14847",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(4)",
+      "targets": [
+        ["css=button:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "0309af23-7278-4c2b-81cf-4932f1e7c0ba",
@@ -503,6 +743,6 @@
     "timeout": 300,
     "tests": ["540375bb-f916-4191-8218-9522702f4087"]
   }],
-  "urls": ["https://gttx.app/"],
+  "urls": ["https://gttx.app/", "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o"],
   "plugins": []
 }
