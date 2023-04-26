@@ -5,7 +5,7 @@ from time import sleep
 
 options = webdriver.FirefoxOptions()
 
-browser = webdriver.Remote('192.168.56.1:4444', options=options)
+browser = webdriver.Firefox(options=options)
 
 
 browser.get('https://gttx.app/login')
@@ -16,13 +16,20 @@ elem.send_keys(Keys.RETURN)
 sleep(2)
 browser.get('https://gttx.app/dashboard/notes?gqkvmzpivxxxz6o')
 sleep(1)
-#facilitator toggle
-browser.find_element(By.CLASS_NAME, 'svelte-ao2ii4').click()
-
 
 last_question = ""
 try:
     while(True):
-        sleep(1)
+        question = browser.find_element(By.ID, 'curr_question').text
+        if (question != last_question):
+            last_question = question
+            answer = browser.find_element(By.ID, 'notes')
+            answer.send_keys('This is a test.')
+            browser.find_element(By.ID, 'submit_answer').click()
+
+        else:
+            browser.refresh()
+            sleep(10)
 except KeyboardInterrupt:
-    browser.quit()
+    pass
+browser.quit()
