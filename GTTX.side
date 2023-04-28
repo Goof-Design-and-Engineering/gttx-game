@@ -2,7 +2,7 @@
   "id": "388e0184-debf-4365-9059-605c50f8b5eb",
   "version": "2.0",
   "name": "GTTX",
-  "url": "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o",
+  "url": "https://gttx.app/",
   "tests": [{
     "id": "540375bb-f916-4191-8218-9522702f4087",
     "name": "Bot 1 Login",
@@ -10,22 +10,8 @@
       "id": "0adbc4b8-482d-4664-9305-e57bdc4f9e67",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/login",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "41c657ee-50ad-4863-b65d-b6694d892c7d",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Login",
-      "targets": [
-        ["linkText=Login", "linkText"],
-        ["css=ul:nth-child(2) a", "css:finder"],
-        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
-        ["xpath=//ul[2]/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "e9df577d-f753-4d29-8a01-27ad3928b2ea",
@@ -135,22 +121,8 @@
       "id": "4d55d04d-c236-406f-b10f-150fa2223a22",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/login",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "c92625b5-0e8a-46d7-ad93-94e61b50520a",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Login",
-      "targets": [
-        ["linkText=Login", "linkText"],
-        ["css=ul:nth-child(2) a", "css:finder"],
-        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
-        ["xpath=//ul[2]/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "34cf420d-2287-4b08-b348-a8fac3d32034",
@@ -224,22 +196,8 @@
       "id": "0424812e-22cd-489b-a0e1-68c2e931507b",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/login",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "36877118-0b15-48ae-a3e8-23ea364e19c4",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Login",
-      "targets": [
-        ["linkText=Login", "linkText"],
-        ["css=ul:nth-child(2) a", "css:finder"],
-        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
-        ["xpath=//ul[2]/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "16832f42-a803-4de5-adf8-75ca800ca118",
@@ -313,22 +271,8 @@
       "id": "40df3539-c4a2-44cb-94f4-31abc0af19e1",
       "comment": "",
       "command": "open",
-      "target": "/",
+      "target": "/signup",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "8bc4991d-7d0b-4518-b9d9-9ffd5e156e03",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Login",
-      "targets": [
-        ["linkText=Login", "linkText"],
-        ["css=ul:nth-child(2) a", "css:finder"],
-        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
-        ["xpath=//ul[2]/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "2a6bc863-98db-48e5-aefd-51050ee10064",
@@ -743,6 +687,6 @@
     "timeout": 300,
     "tests": ["540375bb-f916-4191-8218-9522702f4087"]
   }],
-  "urls": ["https://gttx.app/", "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o"],
+  "urls": ["https://gttx.app/", "https://gttx.app/dashboard/notes?roomid=gqkvmzpivxxxz6o", "https://gttx.app/login"],
   "plugins": []
 }
