@@ -1,7 +1,7 @@
 import  os, subprocess
 from time import sleep
 
-NUM_BOTS = 100
+NUM_BOTS = 10
 
 
 def process_line(line:str):
