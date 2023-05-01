@@ -8443,8 +8443,10 @@ DevTools listening on ws://127.0.0.1:56824/devtools/browser/3785d871-e6e1-4355-b
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
 JavaScript error: https://gttx.app/_app/immutabJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-onseError 0: Something went wrong while processing your request.
-1682911196191	Marionette	INFO	Stopped listening on port 57336
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+FO	Stopped listening on port 57336
 JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: Error: Missing topic.
 Dynamically enable window occlusion 1
 console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
@@ -8588,3 +8590,741 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682959380107	geckodriver	INFO	Listening on 127.0.0.1:55061
+1682959383149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55062" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileskOBNo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682959383457	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682959383461	Marionette	INFO	Listening on port 55069
+Read port: 55069
+WebDriver BiDi listening on ws://127.0.0.1:55062
+1682959383692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileskOBNo\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55062/devtools/browser/105234ea-fe88-4a54-b7ad-445eac677500
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682959400917	Marionette	INFO	Stopped listening on port 55069
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682959419961	geckodriver	INFO	Listening on 127.0.0.1:55112
+1682959423022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileFF2goJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682959423250	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682959423253	Marionette	INFO	Listening on port 55120
+WebDriver BiDi listening on ws://127.0.0.1:55113
+Read port: 55120
+1682959423440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileFF2goJ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55113/devtools/browser/91a22b00-d424-4847-8319-90f8af2f01db
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: https://gttx.app/_app/immutable/entry/(gameflow)-start-page.svelte.088c1bc9.js, line 1: ReferenceError: record is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682959850482	geckodriver	INFO	Listening on 127.0.0.1:55273
+1682959853525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55274" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofiletRJUO5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682959853754	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682959853757	Marionette	INFO	Listening on port 55281
+WebDriver BiDi listening on ws://127.0.0.1:55274
+Read port: 55281
+1682959854016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofiletRJUO5\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55274/devtools/browser/52326e65-8964-4459-b003-43b9cc4187be
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: https://gttx.app/_app/immutable/entry/(gameflow)-start-page.svelte.088c1bc9.js, line 1: ReferenceError: record is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682959860987	Marionette	INFO	Stopped listening on port 55281
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682961579273	geckodriver	INFO	Listening on 127.0.0.1:64449
+1682961582335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64450" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileun5bRO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682961582595	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682961582599	Marionette	INFO	Listening on port 64457
+WebDriver BiDi listening on ws://127.0.0.1:64450
+Read port: 64457
+1682961582788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileun5bRO\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64450/devtools/browser/e5143fc3-65e5-4983-8c85-b6048ad10e9e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 70: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 70: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1682961624856	Marionette	INFO	Stopped listening on port 64457
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682961941777	geckodriver	INFO	Listening on 127.0.0.1:64554
+1682961944849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64555" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofile9bQ5r6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682961945072	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682961945075	Marionette	INFO	Listening on port 64562
+WebDriver BiDi listening on ws://127.0.0.1:64555
+Read port: 64562
+1682961945269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofile9bQ5r6\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64555/devtools/browser/87d32ffc-ba11-4867-87f4-26678d8fd1fc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: https://gttx.app/_app/immutable/entry/(gameflow)-start-page.svelte.088c1bc9.js, line 1: ReferenceError: record is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682962152113	geckodriver	INFO	Listening on 127.0.0.1:64649
+1682962155177	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64650" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofile3Tp6Ya"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682962155404	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682962155408	Marionette	INFO	Listening on port 64657
+WebDriver BiDi listening on ws://127.0.0.1:64650
+Read port: 64657
+1682962155596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofile3Tp6Ya\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:64650/devtools/browser/aaf232df-7a43-47da-8bb7-42901454addc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682962217708	Marionette	INFO	Stopped listening on port 64657
+Dynamically enable window occlusion 1
+1682962346924	geckodriver	INFO	Listening on 127.0.0.1:64721
+1682962349961	mozrunner::runner	INFO	Running command: "C:\\P1682962350242	mozrunner::runner	INFO	Running command: "C:\\P1682962350484	mozrunner::runner	INFO	Running command: "C:\\P1682962350748	mozrunner::runner	INFO	Running command: "C:\\P1682962350996	mozrunner::runner	INFO	Running command: "C:\\P1682962351288	mozrunner::runner	INFO	Running command: "C:\\P1682962351547	mozrunner::runner	INFO	Running command: "C:\\P1682962351830	mozrunner::runner	INFO	Running command: "C:\\P1682962352079	mozrunner::runner	INFO	Running command: "C:\\P1682962352350	mozrunner::runner	INFO	Running command: "C:\\P1682962352601	mozrunner::runner	INFO	Running command: "C:\\P1682962352847	mozrunner::runner	INFO	Running command: "C:\\P1682962353154	mozrunner::runner	INFO	Running command: "C:\\P1682962353429	mozrunner::runner	INFO	Running command: "C:\\Program Files\1682962353750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remoconsole.w1682962354062	mozrunner::runner	INFO	Running commanconsole.warn: 1682962*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZconsole.warn: SearchSettings: "get: No settings 1682962355935	Marionette	INFO	Marionette enabled
+Dynamical[GFXconsole.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+cons[Parent 16496, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_winconsole.warn: LoginRecipes: "FalJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+e/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+ecipes: "Falling back to a synchronous message for: httpJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+warn: LoginRecipes: "Falling backconsole.warn: Loginconsole.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+ynchronous message for: https://gttx.app."
+JavaScript error: https://gttx.app/_app/immutable/entry/(gameflow)-start-page.svelte.088c1bc9.js, line 1: ReferenceError: record is not defined
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+conconsole.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by1682962367762	Marionette	INFO	Marionette enabled
+Dynamicall1682962368119	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682962368126	Marionette	INFO	Listening on port 49249
+1682962371176	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49219" "-1682962371874	mozrunner::runner	INFO	Running command: "C:\\P16829623719321682962372100	mozrunner::runner	INFO	Running command: "C:\\P1682962372182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" 16*** You are running in headless mode.
+console.warn: services.settings: I*** You are running in heaconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682962379124	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682962379131	Marionette	INFO	Listening on port 49814
+Read port: 49814
+WebDriver BiDi listening on ws://127.0.0.1:49266
+1682console.warn: LoginRecipes: "Falling back to a synchronous mconsconsole.warn: Search[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofilesEdi6V\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Jconsole.error: ({})
+DevTools listening on ws://127.0.0.1:49consoconsole.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+console.warn: LoginRecconsole.warn: LoginRecipes: "Falling back to a synchronous message forJavaScript error: httpJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+age.svelte.088c1bc9.jJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ssage for: https://gttx.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+try/(gameflow)-start-page.svelte.088c1bc9.js, line 1: ReferenceError: record is not defined
+rn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ 0: NS_ERRORJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+avaSJaJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttx.app/_app/immutablJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseErJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://githJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttxJavaScript error: https://gttJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More inJavaScript error: https://gttx.apJavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More inJavaScript error: https://gttx.apJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttxJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttxJavaScript error: https://gttJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttxJavaScript error: https://gttJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.jJavaScript error: https://gttxJavaScript error: https://gttJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttxJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The requJavaScript error: https://gttx.apJavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttxJavaScript error: https://gttx.app/_app/immutablJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseErJavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttxJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info JavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://githJavaScript error: https://gttx.app/_app/immutJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://githJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseEJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4JavaScript error: https://gttJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClJavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+ndingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682963844195	geckodriver	INFO	Listening on 127.0.0.1:50334
+1682963847236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofilem8ID0B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682963847497	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682963847501	Marionette	INFO	Listening on port 50342
+WebDriver BiDi listening on ws://127.0.0.1:50335
+Read port: 50342
+1682963847673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofilem8ID0B\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50335/devtools/browser/5375f6af-933c-4e90-8b58-99645f90a85b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: https://gttx.app/_app/immutable/entry/(gameflow)-start-page.svelte.ac3ce3fe.js, line 1: ReferenceError: record is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682963944723	geckodriver	INFO	Listening on 127.0.0.1:50407
+1682963947784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50408" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileqB8to2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682963948033	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682963948037	Marionette	INFO	Listening on port 50415
+WebDriver BiDi listening on ws://127.0.0.1:50408
+Read port: 50415
+1682963948243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileqB8to2\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50408/devtools/browser/8c0c713c-bdb5-472b-873d-c4fd3300ac13
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682963965378	Marionette	INFO	Stopped listening on port 50415
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682964044747	geckodriver	INFO	Listening on 127.0.0.1:50524
+1682964047805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofilexE7jLf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682964048046	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682964048050	Marionette	INFO	Listening on port 50535
+WebDriver BiDi listening on ws://127.0.0.1:50525
+Read port: 50535
+1682964048254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofilexE7jLf\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50525/devtools/browser/36bf34cc-3804-4d57-89d6-8b81912ee8d7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+1682964055832	Marionette	INFO	Stopped listening on port 50535
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682964066987	geckodriver	INFO	Listening on 127.0.0.1:50579
+1682964070037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50580" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileujOvVZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682964070270	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682964070273	Marionette	INFO	Listening on port 50587
+WebDriver BiDi listening on ws://127.0.0.1:50580
+Read port: 50587
+1682964070482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theza\\AppData\\Local\\Temp\\rust_mozprofileujOvVZ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50580/devtools/browser/019b9381-5929-45d5-bfea-5387dc4083c7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: https://gttx.app/_app/immutable/entry/(gameflow)-start-page.svelte.ac3ce3fe.js, line 1: ReferenceError: record is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://gttx.app."
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+JavaScript error: https://gttx.app/_app/immutable/chunks/pocketbase.f160ef4f.js, line 1: ClientResponseError 0: The request was autocancelled. More info you could find in https://github.com/pocketbase/js-sdk#auto-cancellation.
+1682964143176	Marionette	INFO	Stopped listening on port 50587
+Dynamically enable window occlusion 1
