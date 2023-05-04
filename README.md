@@ -1,10 +1,11 @@
 # gttx-game
 
-## How to run locally:
+## How to run Selenium Scripts:
 
 ```
+Download Firefox and the Gecko Driver, and add both to your PATH. See https://www.selenium.dev/documentation/webdriver/getting_started/ for more information.
 pip install -r requirements.txt
-python3 app.py
+python3 SeleniumBots/<program>.py
 ```
 
 ## Selenium Extension
