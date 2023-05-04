@@ -1,7 +1,7 @@
 import json
 from pocketbase import PocketBase
 
-ROOM_ID = "wscqor3uey1apeb" 
+ROOM_ID = "732idvo8nsob4ut" 
 ORG_ID = "7z9ag8na0pfubxk"
 
 client = PocketBase('https://api.gttx.app')

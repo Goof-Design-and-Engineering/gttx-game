@@ -1,8 +1,9 @@
 import  os, subprocess, json
 from time import sleep
 
-NUM_BOTS = 50
-ROOM = "wscqor3uey1apeb"
+DELAY = 1
+NUM_BOTS = 100
+ROOM = "732idvo8nsob4ut"
 accounts = json.load(open("accounts.json", 'r'))
 
 
@@ -10,7 +11,7 @@ accounts = json.load(open("accounts.json", 'r'))
 bots = []
 for i in range(0,NUM_BOTS):
     bots.append(subprocess.Popen(("python bot.py " + accounts[i]["u"] + " " + accounts[i]["p"]+ " " + ROOM + " " + str(i)), stdout=subprocess.PIPE))
-    sleep(0.25)
+    sleep(DELAY)
 
 
 try:

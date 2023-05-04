@@ -10,7 +10,7 @@ from random import randint
 DOMAIN = "https://gttx.app/"
 #DOMAIN = "http://localhost:5173/"
 FINALQ = "Final Question. Bots should terminate after they answer it."
-TIME = 30
+TIME = 60
 
 
 
@@ -28,15 +28,17 @@ def time_page(page, name=None):
 options = webdriver.FirefoxOptions()
 options.add_argument("--headless")
 #Solo
-browser = webdriver.Firefox(options=options)
+#browser = webdriver.Firefox(options=options)
 #Grid
-#browser = webdriver.Remote('192.168.0.123:4444',options=options)
+browser = webdriver.Remote('192.168.0.123:4444',options=options)
 
 responses = open("responses.txt", 'r').readlines()
 time_page('', "index")
 time_page('login')
 #WebDriverWait(browser, TIME).until(EC.staleness_of(browser.find_element(By.ID, 'email')))
 
+WebDriverWait(browser, TIME).until(EC.presence_of_element_located((By.ID, 'login_button')))
+WebDriverWait(browser, TIME).until_not(EC.element_to_be_clickable(browser.find_element(By.ID, 'login_button')))
 elem = browser.find_element(By.ID, 'email')
 elem.send_keys(argv[1] + Keys.TAB + argv[2])
 WebDriverWait(browser, TIME).until(EC.element_to_be_clickable((By.ID, 'login_button')))

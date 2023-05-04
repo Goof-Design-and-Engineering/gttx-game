@@ -1,7 +1,7 @@
 import  os, subprocess, json
 from time import sleep
 
-NUM_BOTS = 100
+NUM_BOTS = 10
 
 accounts = json.load(open("accounts.json", 'r'))
 
@@ -22,7 +22,7 @@ for j in range(0, 100//NUM_BOTS):
     bots = []
     for i in range(0,NUM_BOTS):
         bots.append(subprocess.Popen(("python timerbot.py " + accounts[i]["u"] + " " + accounts[i]["p"]), stdout=subprocess.PIPE))
-        sleep(0.1)
+        sleep(0.01)
 
 
     try:

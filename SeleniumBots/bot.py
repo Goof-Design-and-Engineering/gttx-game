@@ -12,12 +12,12 @@ FINALQ = "Final Question. Bots should terminate after they answer it."
 TIME = 360
 
 
+
 def response():
     return responses[randint(0,(len(responses) - 1))]
 
 options = webdriver.FirefoxOptions()
-if (int(argv[4]) % 10 != 0):
-    options.add_argument("--headless")
+options.add_argument("--headless")
 #Solo
 #browser = webdriver.Firefox(options=options)
 #Grid
@@ -44,7 +44,6 @@ browser.find_element(By.ID, argv[3]).click()
 WebDriverWait(browser, TIME).until(EC.presence_of_element_located((By.ID, 'curr_question')))
 WebDriverWait(browser, timeout=120, poll_frequency=5).until_not(EC.text_to_be_present_in_element((By.ID, 'curr_question'), "Loading current question..."))
 
-print(str(argv[4]+" ready."))
 last_question = None
 try:
     while(last_question != FINALQ):
@@ -58,7 +57,6 @@ try:
             answer.send_keys(response())
             WebDriverWait(browser, TIME).until(EC.element_to_be_clickable((By.ID, 'submit_answer')))
             browser.find_element(By.ID, 'submit_answer').click()
-            print(str(argv[4]+" answered question."))
 
         else:
             WebDriverWait(browser, timeout=3600).until_not(EC.text_to_be_present_in_element((By.ID, 'curr_question'), q_text))
